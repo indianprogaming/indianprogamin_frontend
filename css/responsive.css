@@ -1,0 +1,10 @@
+@media(max-width: 998px){
+    .center-nav{
+        display : none;
+    }
+    .landing{
+        height: 80vh;
+        background-position: center right;
+        background-size: cover;
+    }
+}

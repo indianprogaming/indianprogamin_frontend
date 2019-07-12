@@ -1,7 +1,45 @@
-.landing{
-  height: 70vh;
-  background-color: black;
+body{
+  font-family: Montserrat;
 }
+
+
+.landing{
+  height: 90vh;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.65), 
+      rgba(0, 0, 0, 0.65)
+    ),
+    /* bottom, image */
+    url("../images/bg/landinghome.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* NAVBAR CSS*/
 .button-top{
   margin-top:-20px;
+}
+.font-pacifico{
+  font-family: Pacifico;
+}
+.center-nav{
+  font-size: 1.3em;
+}
+.loginbtn{
+  color:#FFB320;
+  display: block;
+  border: 1px solid #FFB320;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.loginbtn:hover{
+  color : white;
+  text-decoration: none;
+  background-color: #FFB320;
+  transition: 0.3s ease-out;
 }
