@@ -3,8 +3,10 @@
         display : none;
     }
     .landing{
-        height: 80vh;
-        background-position: center right;
+        height: 60vh;
         background-size: cover;
+    }
+    .hero{
+        font-size: 1.5em;
     }
 }

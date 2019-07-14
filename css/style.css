@@ -4,17 +4,18 @@ body{
 
 
 .landing{
-  height: 90vh;
+  height: 70vh;
   background: 
     /* top, transparent red */ 
     linear-gradient(
-      rgba(0, 0, 0, 0.65), 
-      rgba(0, 0, 0, 0.65)
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
     ),
     /* bottom, image */
-    url("../images/bg/landinghome.jpg");
+    url("../images/bg/bglanding.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top;
 }
 
 
@@ -42,4 +43,21 @@ body{
   text-decoration: none;
   background-color: #FFB320;
   transition: 0.3s ease-out;
+}
+
+/*Landing CSS*/
+
+.hero{
+  font-size: 2.8rem;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*SECTION BASED GROUP CSS*/
+.title-section{
+  font-size: 1.8em;
+  margin: 2.6%;
+  letter-spacing: -0.09em;
 }
