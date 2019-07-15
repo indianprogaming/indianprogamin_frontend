@@ -11,6 +11,9 @@
     <!--External CSS-->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <!--Owl Carousel CSS-->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
   </head>
   <body>
     <div class="landing">
@@ -32,47 +35,39 @@
     <div class="section-2 container">
       <div class="text-center title-section">UPCOMING MATCHES</div>
       <br>
-      <div class="card-deck row">
-        <div class="col-md-4 mt-5">
-            <div class="card">
-                <img class="card-img-top" src="./images/games/cover/pubg.jpg" alt="game_name">
-                <div class="card-body">
-                  <h5 class="card-title">PUBG : Player Unknown's Battle Ground</h5>  
-                  <p class="card-text text-right"><small class="text-danger font-weight-bold">24 Hours 35 Min Remaining</small></p>
-                </div>
+      <div class="owl-carousel">
+          <div class="">
+              <div class="card">
+                  <div class="card-horizontal">
+                      <div class="img-square-wrapper">
+                          <img class="" src="./images/games/cover/pubg.jpg" alt="Card image cap">
+                      </div>
+                      <div class="card-body">
+                          <h6 class="card-title">PUBG : Player Unknown's Battle Ground</h6>
+                      </div>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-danger font-weight-bold">1 Hrs 30 Mins left</small>
+                      <button class="btn btn-match btn-outline-success">Join Now</button>
+                  </div>
               </div>
-        </div>
-        <div class="col-md-4 mt-5">
-            <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>  
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-        </div>
-        <div class="col-md-4 mt-5">
-            <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>  
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-        </div>
-        <div class="col-md-4 mt-5">
-            <div class="card">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>  
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-        </div>
+          </div>
+          <div> Your Content </div>
+          <div> Your Content </div>
+          <div> Your Content </div>
+          <div> Your Content </div>
+          <div> Your Content </div>
+          <div> Your Content </div>
         </div>
     </div>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+     });
+  </script>
 </html>
