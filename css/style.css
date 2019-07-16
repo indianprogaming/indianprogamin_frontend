@@ -64,18 +64,15 @@ body{
 
 /*Specific Section CSS */
 .section-2{
-  height: 450px;
+  height: 390px;
 }
 .card-horizontal {
   display: flex;
 }
-
-.btn-match{
-  margin: -10px;
-  position: relative;
-  bottom: 0;
-  float: right;
-}
-card-footer{
+.card-footer{
   padding: 0px;
+}
+.card{
+  margin-left: 20px;
+  margin-right: 20px;
 }
