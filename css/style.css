@@ -93,3 +93,6 @@ body{
     background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
 }
+.img-container{
+  margin: 5%;
+}
