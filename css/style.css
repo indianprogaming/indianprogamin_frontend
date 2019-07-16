@@ -4,7 +4,7 @@ body{
 
 
 .landing{
-  height: 70vh;
+  height: 80vh;
   background: 
     /* top, transparent red */ 
     linear-gradient(
@@ -75,4 +75,21 @@ body{
 .card{
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.section-3{
+  padding-top: 1%;
+  height: 250px;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.70), 
+      rgba(0, 0, 0, 0.70)
+    ),
+    /* bottom, image */
+    url("../images/quote1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
 }
