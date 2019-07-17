@@ -114,3 +114,20 @@ body{
     background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
 }
+
+.section-7{
+  padding-top: 1%;
+  height: 350px;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.70), 
+      rgba(0, 0, 0, 0.70)
+    ),
+    /* bottom, image */
+    url("../images/quote3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
+}
