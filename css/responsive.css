@@ -16,4 +16,24 @@
     .quote{
         margin-top: 20%;
     }
+    .section-3{
+        height: 250px;
+    }
+    .photomockup img{
+        width: 100%;
+        margin-top:20px;
+        height: 280px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer h6:after {
+        top : -10px;
+        width: 100%;
+
+    }
+    .logo-part{
+        border: 0px;
+    }
+    
 }
