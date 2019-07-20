@@ -35,5 +35,7 @@
     .logo-part{
         border: 0px;
     }
-    
+    .heading  img{
+        height: 150px;
+    }
 }
