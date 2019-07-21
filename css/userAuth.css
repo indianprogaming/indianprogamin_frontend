@@ -176,6 +176,8 @@ input {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+	font-weight: bold;
 	color: #FFFFFF;
 	position: relative;
 	left: -100%;
@@ -265,15 +267,20 @@ footer a {
 .fb:hover{
 	color: white;
 	background-color: #3c97bf;
+	transition: 0.3s ease-in;
 }
 .google:hover{
 	color: white;
 	background-color: #dd4b39;
+	transition: 0.3s ease-in;
+
 }
 
 .steam:hover{
 	color: white;
 	background-color: #171A21;
+	transition: 0.3s ease-in;
+
 }
 @media(max-width : 998px){
 	body{
