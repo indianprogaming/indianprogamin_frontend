@@ -275,3 +275,76 @@ footer a {
 	color: white;
 	background-color: #171A21;
 }
+@media(max-width : 998px){
+	body{
+		padding-top: 2.5vh;
+		height: 100vh;
+		justify-content:flex-start;
+		align-items: top;
+	}
+	h1 {
+		font-weight: normal;
+		margin: 0;
+		font-size: 20px;
+	}
+	
+	h2 {
+		text-align: center;
+	}
+	
+	p {
+		font-size: 10px;
+		font-weight: 100;
+		line-height: 20px;
+		letter-spacing: 0.5px;
+		margin: 20px 0 30px;
+	}
+	span{
+		font-size: 8px;
+	}
+	.container{
+		padding: 0px;
+	}
+	a {
+		color: #333;
+		font-size: 11px;
+		text-decoration: none;
+		margin: 10px 0;
+	}
+	.social-container {
+		margin: 10px 0;
+	}
+	.social-container a{
+		height: 20px;
+		width: 20px;
+	}
+	button {
+		border-radius: 20px;
+		border: 1px solid #FFB320;
+		background-color: #FFB320;
+		color: #FFFFFF;
+		font-size: 8px;
+		font-weight: bold;
+		padding: 10px 35px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		transition: transform 80ms ease-in;
+	}
+	.sign-in-container {
+		left: 0;
+		margin-left: 0px;
+		width: 50%;
+		z-index: 2;
+	}
+	input {
+		background-color: #eee;
+		border: none;
+		padding: 4px 8px;
+		margin: 8px 0;
+		font-size: 8px;
+		width: 100%;
+	}
+	.container{
+		min-height: 350px;
+	}
+}
